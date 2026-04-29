@@ -1,0 +1,59 @@
+PRACTICA-ENTRENAMIENTO COMPETENCIA UAB:
+Bloque 1: Nivel 800 - 1000 (Calentamiento y Ad-hoc)
+
+Ideal para pulir velocidad y lectura de problemas.
+1.- 4A(CHECK) - Watermelon (El clásico para empezar).
+2.- 71A(CHECK) - Way Too Long Words (Manejo de strings).
+3.- 231A(CHECK) - Team (Lógica básica).
+4.- 158A(CHECK) - Next Round (Arreglos y condiciones).
+5.- 282A(CHECK) - Bit++ (Simulación).
+6.- 263A(CHECK) - Beautiful Matrix (Matrices y distancia Manhattan).
+7.- 112A(CHECK) - Petya and Strings (Comparación de caracteres).
+
+Bloque 2: Nivel 1100 - 1200 (Matemáticas y Constructivos)
+
+Aquí empezamos a pensar en eficiencia.
+8.  136A - Presents (Permutaciones e índices).
+9.  451A - Game With Sticks (Lógica de juegos/Matemática).
+10. 122A - Lucky Division (Fuerza bruta básica).
+11. 466A - Cheap Travel (Implementación codiciosa/Greedy).
+12. 25A - IQ test (Propiedades de números).
+13. 474A - Keyboard (Manipulación de strings).
+14. 318A - Even Odds (Matemática sin bucles).
+
+Bloque 3: Nivel 1300 - 1400 (Búsqueda Binaria y Dos Punteros)
+
+Temas obligatorios para competencias universitarias.
+15. 489B - BerSU Ball (Greedy + Ordenamiento).
+16. 489C - Given Length and Sum of Digits... (Constructivo/Greedy).
+17. 466C - Number of Ways (Programación Dinámica básica/Prefijos).
+18. 706B - Interesting Drink (Búsqueda Binaria / upper_bound).
+19. 580C - Kefa and Park (DFS en árboles).
+20. 230B - T-primes (Criba de Eratóstenes).
+21. 459B - Pashmak and Flowers (Combinatoria básica).
+
+Bloque 4: Nivel 1500 - 1600 (Programación Dinámica y Grafos)
+
+Aquí es donde se ganan las medallas.
+22. 189A - Cut Ribbon (DP clásica).
+23. 455A - Boredom (DP de estados).
+24. 545C - Woodcutters (Greedy/DP).
+25. 1352C - K-th Not Divisible by n (Búsqueda binaria sobre respuesta).
+26. 279B - Books (Two Pointers).
+27. 520B - Two Buttons (BFS / Grafos).
+28. 1363A - Odd Selection (Casos de prueba y paridad).
+
+Bloque 5: Nivel 1700+ (Estructuras de Datos y Algoritmos Avanzados)
+
+Desafíos finales para dominar la lógica.
+29. 339D - Xenia and Bit Operations (Segment Tree).
+30. 474D - Flowers (DP + Sumas de prefijos).
+31. 20C - Dijkstra? (Camino más corto en grafos).
+32. 1324E - Sleeping Schedule (DP).
+33. 276C - Little Girl and Maximum Sum (Difference Array / Greedy).
+34. 580B - Kefa and Company (Two Pointers / Sliding Window).
+35. 431C - k-Tree (DP en árboles).
+36. 1360E - Polygon (Constructivo).
+37. 977E - Cyclic Components (Componentes conexas en grafos).
+38. 1398C - Good Subarrays (Mapas y sumas de prefijos).
+39. 456A - Laptops (Ordenamiento y lógica).
