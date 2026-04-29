@@ -39,10 +39,10 @@ int main(){
 
 	bool mismoTamaSG = mismoTamano(s, g);
 	bool mismoTamaST = mismoTamano(s, t);
-	bool mismoOrSG = mismaCantidad(s, g);
-	bool mismoOrST = mismaCantidad(s, t);
+	bool mismoCantSG = mismaCantidad(s, g);
+	bool mismoCantST = mismaCantidad(s, t);
 
-	if((mismoTamaSG) && (mismoTamaST) && (mismoOrSG) && (mismoOrST)){
+	if((mismoTamaSG) && (mismoTamaST) && (mismoCantSG) && (mismoCantST)){
 		res = "true";
 	}
 
