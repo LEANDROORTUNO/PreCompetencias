@@ -92,3 +92,7 @@ Ejercicio4 - UAB
 136A - Presents - CodeForces
 ###
 Ejerccio5 - UAB
+###
+Ejercicio6 - UAB
+###
+451A - Game With Sticks - CodeForces
