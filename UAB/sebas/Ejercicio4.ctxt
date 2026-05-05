@@ -1,9 +1,1 @@
-#BlueJ class context
-comment0.target=Ejercicio4
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment2.params=arreglo\ n
-comment2.target=void\ ordenarRGB(char[],\ int)
-comment3.params=arreglo\ i\ j
-comment3.target=void\ intercambiar(char[],\ int,\ int)
-numComments=4
+
