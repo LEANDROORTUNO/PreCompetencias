@@ -1,6 +1,17 @@
 # PROBLEMAS RESUELTOS
 Ejercicio - nombre - plataforma - lenguaje
 ## JOSE
+4A - Watermelon - CodeForces
+###
+71A - Way too long words - CodeForces
+###
+231A - Team - CodeForces
+###
+282A - Bit++ - CodeForces
+###
+158A - Next Round - CodeForces
+###
+1A - Theatre Square - CodeForces
 
 ## MARCOS
 
