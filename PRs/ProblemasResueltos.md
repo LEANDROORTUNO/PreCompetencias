@@ -12,6 +12,12 @@ Ejercicio - nombre - plataforma - lenguaje
 158A - Next Round - CodeForces
 ###
 1A - Theatre Square - CodeForces
+###
+50A - Domino Piling - CodeForces
+###
+112A - Petya and Strings - CodeForces
+###
+236A - Boy or Girl - CodeForces
 
 ## MARCOS
 
