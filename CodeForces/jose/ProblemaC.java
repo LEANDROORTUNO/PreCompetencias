@@ -1,19 +1,19 @@
 import java.util.Scanner;
 public class ProblemaC{
-	public static void main(Srting[] args){
+	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		String cad1, cad2, res;
 		cad1 = sc.nextLine();
 		cad2 = sc.nextLine();
 		ProblemaC pC = new ProblemaC();
 		res = pC.ejercicio(cad1, cad2);
-		System.out.pritnln(res);
+		System.out.println(res);
 
 	}
 
 	public String ejercicio(String cad1, String cad2){
 		String dia1, dia2;
-		String list[] = {Mon, Tus, Wed, Thu, Fri, Sat, Sun};
+		String list[] = {"Mon", "Tus", "Wed", "Thu", "Fri", "Sat", "Sun"};
 		int difDia, difH, difM, hora1, hora2, min1, min2;
 
 		dia1 = desgloceDia(cad1);
@@ -48,7 +48,7 @@ public class ProblemaC{
 	private int desgloceM(String cadena){
 		String res = "";
 		int r = 0;
-		for(int i = 7; i < 8; i++){
+		for(int i = 7; i < 9; i++){
 			res += cadena.charAt(i);
 		}
 		r = Integer.parseInt(res);
@@ -63,8 +63,8 @@ public class ProblemaC{
 					if(lista[j] == dia2){
 						res = Math.abs(i - j - 1);
 					}
-				}
-				if(res = 0){
+				} 
+				if(res == 0){
 					for(int j = 0; j < lista.length; j++){
 						if(lista[j] == dia2){
 							j += 7;
@@ -99,11 +99,31 @@ public class ProblemaC{
 
 	private String contruccion(int difDia, int difH, int difM){
 		String res = "";
-		if(difDia != 0){
-			res = res + difDia + " days ,";
+		if(difDia == 0){
+			if(difH == 0){
+				res = res + difM + " minutes";
+			}else{
+				if(difM == 0){
+					res = res + difH + " hours";
+				}else{
+					res = res + difH + " hours and " + difM + " minutes";
+				}
+			}
+		}else{
+			if(difH == 0){
+				if(difM == 0){
+					res = res + difDia + " days";
+				}else{
+					res = res + difDia + " days and " + difM + " minutes";
+				}
+			}else{
+				if(difM == 0){
+					res = res + difDia + " days and " + difH + " hours";
+				}else{
+					res = res + difDia + " days, " + difH + " hours, " + difM + " minutes";
+				}
+			}
 		}
-		if(difH != 0){
-			res = res + difH + " hours ,";
-		}
+		return res;
 	}
 }
