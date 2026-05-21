@@ -13,7 +13,7 @@ public class ProblemaC{
 
 	public String ejercicio(String cad1, String cad2){
 		String dia1, dia2;
-		String list[] = {"Mon", "Tus", "Wed", "Thu", "Fri", "Sat", "Sun"};
+		String list[] = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
 		int difDia, difH, difM, hora1, hora2, min1, min2;
 
 		dia1 = desgloceDia(cad1);
@@ -58,17 +58,17 @@ public class ProblemaC{
 	private int comparacion(String dia1, String dia2, String[] lista){
 		int res = 0;
 		for(int i = 0;  i < lista.length; i++){
-			if(lista[i] == dia1){
+			if(lista[i].equals(dia1)){
 				for(int j = i; j < lista.length; j++){
-					if(lista[j] == dia2){
-						res = Math.abs(i - j - 1);
+					if(lista[j].equals(dia2)){
+						res = Math.abs(i - j) - 1;
 					}
 				} 
 				if(res == 0){
 					for(int j = 0; j < lista.length; j++){
-						if(lista[j] == dia2){
+						if(lista[j].equals(dia2)){
 							j += 7;
-							res = Math.abs(i - j - 1);
+							res = Math.abs(i - j) - 1;
 						}
 					}	
 				}
@@ -99,7 +99,7 @@ public class ProblemaC{
 
 	private String contruccion(int difDia, int difH, int difM){
 		String res = "";
-		if(difDia == 0){
+		if(difDia == 0 || difDia == -1){
 			if(difH == 0){
 				res = res + difM + " minutes";
 			}else{
