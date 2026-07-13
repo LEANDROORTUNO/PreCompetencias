@@ -26,8 +26,8 @@ public class EjercicioMarco{
 	}	
 
 	public static void main(String[] args){
-		int[] list1 = {2,5,8};
-		int[] list2 = {3,6,9};
+		int[] list1 = {2,9,9};
+		int[] list2 = {3,9,9};
 
 		System.out.println(resolver(list1, list2));
 	}

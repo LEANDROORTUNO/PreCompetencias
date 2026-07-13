@@ -18,6 +18,32 @@ Ejercicio - nombre - plataforma - lenguaje
 112A - Petya and Strings - CodeForces
 ###
 236A - Boy or Girl - CodeForces
+###
+263A - Beautiful Matriz - CodeForces
+###
+339A - Helpful Maths - CodeForces
+###
+281A - Word Capitalization - CodeForces
+###
+791A - Bear and Big Brother - CodeForces
+###
+617A - Elephant - CodeForces
+###
+266A - Stones on the Table - CodeForces
+###
+546A - Soldier and Bananas - CodeForces
+###
+118A - String Task - CodeForces
+###
+59A - Word - CodeForces
+###
+977A - Wrong Subtraction - CodeForces
+###
+69A - Young Physicist - CodeForces
+###
+110A - Nearly Lucky Number - CodeForces
+###
+734A - Anton and Danik - CodeForces
 
 ## MARCOS
 
